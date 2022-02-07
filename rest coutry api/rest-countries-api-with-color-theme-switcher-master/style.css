@@ -1,0 +1,36 @@
+.CountryFlag{
+     /* transform: scale(0); */
+    transition: 1s ;
+
+}
+
+
+.CountryFlag:hover{
+    transform: scale(1.02);
+
+}
+
+
+.card{
+    cursor: pointer;
+}
+
+.Paragraph{
+    font-size: 1.75rem !important;
+}
+.inputContainer{
+
+
+    width:75% !important ;
+}
+
+@media screen  and (max-width:486px){
+    .Pragraph{
+        font-size: 16px !important;
+    }
+    .inputContainer{
+
+
+        width: 100% !important ;
+    }
+}
